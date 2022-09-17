@@ -5,6 +5,9 @@ namespace Lab2._1_Prog_Tech
         public Form1()
         {
             InitializeComponent();
+
+            txtCircleRadius.Text = Properties.Settings.Default.circleRadius.ToString();
+            txtSquareSide.Text = Properties.Settings.Default.squareSide.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -25,6 +28,10 @@ namespace Lab2._1_Prog_Tech
             {
                 return;
             }
+
+            Properties.Settings.Default.squareSide = squareSide;
+            Properties.Settings.Default.circleRadius = circleRadius;
+            Properties.Settings.Default.Save();
 
             MessageBox.Show(Logic.DoCompare(squareSide, circleRadius));
         }
