@@ -15,7 +15,18 @@ namespace Lab2._1_Prog_Tech
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            int circleRadius, squareSide;
+            try
+            {
+                circleRadius = int.Parse(this.txtCircleRadius.Text);
+                squareSide = int.Parse(this.txtSquareSide.Text);
+            }
+            catch
+            {
+                return;
+            }
+
+            MessageBox.Show(Logic.DoCompare(squareSide, circleRadius));
         }
     }
 
