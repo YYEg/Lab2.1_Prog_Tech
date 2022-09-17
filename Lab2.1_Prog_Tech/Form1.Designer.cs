@@ -31,17 +31,17 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCircleRadius = new System.Windows.Forms.TextBox();
+            this.txtSquareSide = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(61, 191);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(251, 29);
+            this.button1.Size = new System.Drawing.Size(335, 29);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Сравнить";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -49,40 +49,40 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(262, 58);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 20);
+            this.label1.Size = new System.Drawing.Size(97, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "Радиус круга";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(262, 130);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 20);
+            this.label2.Size = new System.Drawing.Size(134, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.label2.Text = "Сторона квадрата";
             // 
-            // textBox1
+            // txtCircleRadius
             // 
-            this.textBox1.Location = new System.Drawing.Point(61, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
-            this.textBox1.TabIndex = 3;
+            this.txtCircleRadius.Location = new System.Drawing.Point(61, 51);
+            this.txtCircleRadius.Name = "txtCircleRadius";
+            this.txtCircleRadius.Size = new System.Drawing.Size(125, 27);
+            this.txtCircleRadius.TabIndex = 3;
             // 
-            // textBox2
+            // txtSquareSide
             // 
-            this.textBox2.Location = new System.Drawing.Point(61, 123);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(125, 27);
-            this.textBox2.TabIndex = 4;
+            this.txtSquareSide.Location = new System.Drawing.Point(61, 123);
+            this.txtSquareSide.Name = "txtSquareSide";
+            this.txtSquareSide.Size = new System.Drawing.Size(125, 27);
+            this.txtSquareSide.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(456, 263);
+            this.Controls.Add(this.txtSquareSide);
+            this.Controls.Add(this.txtCircleRadius);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
@@ -99,7 +99,7 @@
         private Button button1;
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtCircleRadius;
+        private TextBox txtSquareSide;
     }
 }
