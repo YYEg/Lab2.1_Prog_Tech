@@ -1,0 +1,11 @@
+[33mcommit b452147ed8a230706c8f234bc99872095eb4955a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: YuEgor <rezervdesu15@gmail.com>
+Date:   Sat Sep 17 23:07:55 2022 +0800
+
+    Добавьте файлы проекта.
+
+[33mcommit 98921ae20c8ca6d41e492a3b322ade0c79a3c37e[m
+Author: YuEgor <rezervdesu15@gmail.com>
+Date:   Sat Sep 17 23:07:53 2022 +0800
+
+    Добавить .gitattributes и .gitignore.

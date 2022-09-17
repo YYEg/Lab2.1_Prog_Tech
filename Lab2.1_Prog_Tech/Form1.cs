@@ -11,6 +11,7 @@ namespace Lab2._1_Prog_Tech
         {
 
 
+
         }
     }
 }
