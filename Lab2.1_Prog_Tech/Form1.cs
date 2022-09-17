@@ -6,5 +6,11 @@ namespace Lab2._1_Prog_Tech
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }
